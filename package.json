@@ -1,0 +1,24 @@
+{
+  "name": "time-wise",
+  "version": "1.0.0",
+  "description": "time.wise",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panchepanevski/time-wise.git"
+  },
+  "author": "Panche Panevski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/panchepanevski/time-wise/issues"
+  },
+  "homepage": "https://github.com/panchepanevski/time-wise#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.23.3"
+  }
+}
