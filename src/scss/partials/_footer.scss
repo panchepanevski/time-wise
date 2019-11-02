@@ -1,0 +1,36 @@
+.nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 80px;
+  background-color: $color-tertiary;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  &__btn-1 {
+    grid-column-start: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  &__btn-2 {
+    grid-column-start: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  &__btn-3 {
+    grid-column: 3 / 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+}
+
+.nav--svg-color {
+  fill: $color-primary;
+}

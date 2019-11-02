@@ -1,0 +1,42 @@
+.tasks {
+  display: grid;
+  grid-template-columns: 90px 110px auto;
+  grid-template-rows: auto;
+  background-color: $color-tertiary;
+  grid-column-gap: 30px;
+  position: fixed;
+  bottom: 81px;
+  left: 0;
+  right: 0;
+
+  &__active {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10px;
+  }
+
+  &__complited {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__total {
+    display: flex;
+    align-content: flex-end;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 10px;
+  }
+}
+
+.task__active--fill-svg > svg {
+  fill: $color-active;
+}
+
+.task__complited--fill-svg > svg {
+  fill: $color-complited;
+}
