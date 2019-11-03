@@ -1,0 +1,31 @@
+header {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 100px;
+  background-color: $color-tertiary;
+}
+
+.logo__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $color-primary;
+}
+
+.logo__blink {
+  color: $color-primary;
+  animation: blinkingPoint 1.8s infinite;
+}
+
+@keyframes blinkingPoint {
+  0% {
+    color: #ecf0f1fc;
+  }
+  50% {
+    color: transparent;
+  }
+  100% {
+    color: #ecf0f1fc;
+  }
+}

@@ -1,0 +1,36 @@
+.tracking-list {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 60px 60px 60px 60px 60px 1fr;
+
+  &__add-1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    margin: 2px 0 1px 0;
+    background-color: $color-secondary;
+
+    &__add-1--left {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    &__add-1--right {
+      display: flex;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+    }
+  }
+}
+
+.tracking-list__wraper {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.tracking-list__wraper i {
+  margin-right: 20px;
+}
