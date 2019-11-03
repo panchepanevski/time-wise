@@ -7,7 +7,7 @@ header {
 }
 
 .logo__wrapper {
-  display: grid;
+  display: flex;
   justify-content: center;
   align-items: center;
   color: $color-primary;
@@ -22,16 +22,10 @@ header {
   0% {
     color: #ecf0f1fc;
   }
-  49% {
-    color: transparent;
-  }
   50% {
     color: transparent;
   }
-  99% {
-    color: transparent;
-  }
   100% {
-    color: #2c3e506b;
+    color: #ecf0f1fc;
   }
 }

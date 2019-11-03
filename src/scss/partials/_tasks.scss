@@ -5,9 +5,10 @@
   background-color: $color-tertiary;
   grid-column-gap: 30px;
   position: fixed;
+  width: 100%;
   bottom: 81px;
-  left: 0;
-  right: 0;
+  // left: 0;
+  // right: 0;
 
   &__active {
     display: flex;
